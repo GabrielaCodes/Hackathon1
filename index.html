@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheelchair Accessible Places in Kerala</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Wheelchair Accessible Places in Kerala</h1>
+            <p>Explore places that are wheelchair-friendly in various districts of Kerala.</p>
+        </header>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="districtInput" placeholder="Enter district name" aria-label="District Name">
+                <button onclick="searchPlaces()" aria-label="Search">Search</button>
+            </div>
+            <div id="results" class="results-container"></div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div id="map" style="height: 400px; width: 100%;"></div>
+        </section>
+
+        <!-- Comment Section -->
+        <section class="comment-section">
+            <h2>Recommend New Wheelchair Accessible Places</h2>
+            <form id="commentForm">
+                <textarea id="commentInput" rows="4" placeholder="Share your recommendation here..." required></textarea>
+                <button type="submit">Submit Recommendation</button>
+            </form>
+            <div id="commentList" class="comment-list">
+                <h3>Recent Recommendations:</h3>
+                <!-- User comments will be dynamically added here -->
+            </div>
+        </section>
+
+        <!-- Loading Spinner -->
+        <div id="loading-spinner" class="loading-spinner" style="display:none;">
+            <div class="spinner"></div>
+            Loading...
+        </div>
+
+        <!-- Chatbot Section -->
+        <section class="chatbot-section">
+            <div class="chatbot-container">
+                <div class="chatbot-header">
+                    <h3>Chatbot</h3>
+                </div>
+                <div id="chatbox" class="chatbox">
+                    <!-- Chat messages will appear here -->
+                </div>
+                <div class="input-container">
+                    <input type="text" id="user-input" placeholder="Type a message..." autofocus>
+                    <button id="send-button">Send</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="chatbot.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
