@@ -59,15 +59,15 @@ Project Documentation
 For Software:
 
 Screenshots (Add at least 3)
-![Screenshot1]("C:\Users\gaby1\OneDrive\Desktop\Hackathon\images\PageTop.png") Top partion of the website with the search bar for the user to input the district and an interactive map with user's current location and nearby wheelchair accessible places.
+![Screenshot1](./images/PageTop.png) Top partion of the website with the search bar for the user to input the district and an interactive map with user's current location and nearby wheelchair accessible places.
 
-![Screenshot2]("C:\Users\gaby1\OneDrive\Desktop\Hackathon\images\PageBottom.png") Comment section for users to type in and recommend new wheelchair accessible places and an interactive chatbot box.
+![Screenshot2](./images/PageTop1.png) Comment section for users to type in and recommend new wheelchair accessible places and an interactive chatbot box.
 
-![Screenshot3]("C:\Users\gaby1\OneDrive\Desktop\Hackathon\images\PageTop1.png") The result/output when user enters the district in the search bar categorized into hospitals , malls , restaurants and leisure spots.
+![Screenshot3](./images/PageTop2.png) The result/output when user enters the district in the search bar categorized into hospitals , malls , restaurants and leisure spots.
 
-![Screenshot4]("C:\Users\gaby1\OneDrive\Desktop\Hackathon\images\PageTop2.png") The  rest of the result/output when user enters the district in the search bar.
+![Screenshot4](./images/PageBottom.png)The  rest of the result/output when user enters the district in the search bar.
 
-![Screenshot5]("C:\Users\gaby1\OneDrive\Desktop\Hackathon\images\PageBottom1.png") The output of chatbot with varius prompts and the comment section where user can input new places and display of previously entered place.
+![Screenshot5](./images/PageBottom1.png) The output of chatbot with varius prompts and the comment section where user can input new places and display of previously entered place.
 
 
 Diagrams
