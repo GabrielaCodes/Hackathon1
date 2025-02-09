@@ -1,4 +1,4 @@
-[Project name:Hackathon] 
+[Project name:wheelchairKerala] 
 Basic Details
 Team Name: Individual
 Team Members
