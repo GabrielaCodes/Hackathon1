@@ -4,7 +4,7 @@ Team Name: Individual
 Team Members
 Member 1: Gabriela Brigita Fernandez - School of Engineering , Cochin University of Science and Technology
 Hosted Project Link
-[mention your project hosted project link here]
+[https://wheelchairkerala.netlify.app/]
 
 Project Description
 My project is a web platform that helps users find wheelchair-accessible places in a chosen district. It includes a comment section for recommendations, displays previously suggested places, features an interactive chatbot for guidance, and integrates a map with geolocation to show nearby accessible landmarks.
@@ -91,7 +91,7 @@ Build Photos
 
 Project Demo
 Video
-[Add your demo video link here] Explain what the video demonstrates
+[https://drive.google.com/file/d/1UNw06kHnr4f5S3hTiFkzIdWGR_jVMRGu/view?usp=sharing] Video demonstrates how to use the website and the various things included in the website for users to use.
 
 Additional Demos
 [Add any extra demo materials/links]
